@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <!--针对ie浏览器，让ie用最大的渲染级别去渲染页面-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--开启移动端理想视口-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--配置页签图标-->
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <!--引入第三方样式样式-->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--配置网页标题-->
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div><!--容器-->
+    <!-- built files will be auto injected -->
+  </body>
+</html>
